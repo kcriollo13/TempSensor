@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- contains metadata -->  
+	<meta charset="UTF-8"> <!-- character encoding for HTML document
+		In this case, this is for Unicode character encoding -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--
+			Control the layout size-->    
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+	       
+	<title> Minimal Temperature Sensor | HTML & CSS</title><!--website title-->
+	<link rel="stylesheet" type="text/css" href="./styles.css"  />
+	<!-- specify relationship between stylesheet and current document-->
+</head>  
+
+<body>
+	<div class="container"> <!--container contents go here-->
+		<nav>	<!-- this is the navigation section that links to parts within the page-->							
+			<input type="checkbox" id="nav" class="hidden"> <!-- creates controls that accept data from user. We are using a check box-->
+			<label for="nav" class="nav-btn">	<!-- "for" must be equal to "id" for both to bind together-->
+				<i></i>
+				<i></i>
+				<i></i>
+			</label>
+			<div class="logo"> <!-- connects to .logo & .logo a in styles.css-->
+				<a href="#">	COMP 264 Temperature Sensor	<!-- hyperlink text--> 
+				</a>
+			</div>
+			<div class="nav-wrapper"> <!-- connects to .nav-wrapper variations-->
+				<ul>
+					<li><a href="#">Home</a></li> <!-- individual items of list ul with hyperlink text-->
+					<li><a href="#">Overview</a></li>
+					<li><a href="#">Prices</a></li>
+					<li><a href="#">Purchase</a></li>
+					
+				</ul>
+			</div>
+		</nav>
+	</div>	
+	<div id="celsius">
+		<input type="number" placeholder="celcius...">
+		</div>
+	<div id="farenheit">
+		<input type="number" placeholder="farenheit...">
+		</div>
+</body>
+</html>
+
+
+
